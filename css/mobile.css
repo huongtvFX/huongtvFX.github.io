@@ -1,0 +1,96 @@
+@media screen and (max-width:  600px) {
+  #banner{
+    padding: 0px 10px !important;
+  }
+  .content-banner{
+    font-size: 10px;
+  }
+  .content-banner h1{
+    font-size: 20px !important;
+  }
+  .content-banner{
+    top: 5%
+  }
+  #nav-bar{
+    margin: 0 30px;
+  }
+  #nav-bar .container {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .img-nav{
+    display: none;
+  }
+  #nav-bar .container a{
+    border: none;
+    justify-content: left;
+  }
+  .nav-a3{
+    padding: 0px !important;
+  }
+
+  #about{
+    width: 100%;
+  }
+
+  #about .container {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 0 !important;
+    width: 95% !important;
+  }
+
+  #job-info .container {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 95%;
+    margin-top: 30px;
+  }
+
+  .content-list h1 {
+    font-size: 30px !important;
+  }
+  .content-list i {
+    font-size: 30px !important;
+  }
+  .list-info {
+    padding: 40px;
+    font-size: 11px;
+  }
+
+  .present-info {
+    padding: 2px 10px;
+    font-size: 11px;
+  }
+
+  .dot1-info, .dot2-info, .dot3-info, .dot4-info, .dot5-info, .dot6-info{
+    left: 2.5em;
+  }
+
+  .bg-grey {
+    background: #f7f7f7;
+    margin: 0px 10px;
+    padding: 0px;
+  }
+  #certificate .container h1{
+    padding: 10px;
+  }
+  .section-certificate {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .certificate-WebsiteNew{
+    display: grid;
+    grid-template-columns: 100% ;
+  }
+  .certificate-Website{
+    border-right: none !important;
+    border-bottom: 1px solid #d6c08d;
+  }
+  #project .container .pro-info {
+    grid-template-columns: 100%;
+  }
+  .contentFooter{
+    font-size: 14px;
+  }
+}

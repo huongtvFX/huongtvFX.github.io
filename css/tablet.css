@@ -1,0 +1,112 @@
+@media screen and (max-width: 992px) {
+  section > .container {
+    width: 100%;
+    margin: auto;
+    display: block;
+    padding: 0px;
+}
+  .content-banner{
+    top: 10%
+  }
+  .nav-a3 {
+    display: none;
+  }
+  .img-nav{
+    display: none;
+  }
+  #nav-bar .container {
+    display: grid;
+    grid-template-columns: 130px 130px 50px 130px 130px;
+    grid-gap: 1px;
+    padding: 0px;
+    width: 100%;
+    justify-content: center;
+  }
+  .containerAbout{
+    width: 649px !important;
+    padding: 0px 50px !important;
+  }
+  #about{
+    margin-bottom: 30px;
+  }
+
+  #target {
+    background-color: #F5F5F5;
+    padding: 40px;
+  }
+  .section-title{
+    font-size: 25px;
+    margin: 30px 0px;
+  }
+  #personal-info {
+    background-color: #F0F0F0;
+    padding: 40px;
+  }
+
+
+
+  #job-info .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    width: 75%;
+    justify-content: center;
+  }
+
+  .content-list h1 {
+    font-size: 25px !important;
+  }
+
+  .list-info {
+    padding: 40px;
+  }
+  .dot1-info, .dot2-info, .dot5-info, .dot6-info{
+    left: 6.5em;
+  }
+  .dot3-info, .dot4-info {
+    left: 25em;
+  }
+  .bg-grey {
+    padding: 25px;
+  }
+  .certificate-Website {
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 0px !important;
+    padding: 0 20px;
+  }
+  .bg-grey img {
+    max-width: 100% !important;
+  }
+
+  .contentCertificate {
+    font-size: 13px;
+    padding: 0px !important;
+  } 
+  .itemCertificate {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  .certificate-WebsiteNew{
+    display: grid;
+    grid-template-columns: 50% ;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  #project .container .pro-info {
+    gap: 20px !important;
+  }
+
+  #project .container .pro-info .pro-list div a h1 {
+    height: 66px;
+  }
+
+  #project .container .pro-info .pro-list table tr:first-child th:nth-child(1),
+  #project .container .pro-info .pro-list table tr:first-child th:nth-child(3) {
+    height: 252px;
+  }
+
+
+}
